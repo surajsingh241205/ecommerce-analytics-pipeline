@@ -38,3 +38,9 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
           python -m pytest tests/test_database_connection.py -v
+
+      - name: Validate PostgreSQL Staging Tables
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          python -m pytest tests/test_staging_tables.py -v
