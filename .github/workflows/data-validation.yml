@@ -32,3 +32,9 @@ jobs:
       - name: Run Data Validation Tests
         run: |
           python -m pytest tests/test_processed_data.py -v
+
+      - name: Test Neon Database Connection
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          python -m pytest tests/test_database_connection.py -v
