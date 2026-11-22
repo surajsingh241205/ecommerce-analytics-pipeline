@@ -473,33 +473,103 @@ Olist Historical E-Commerce Dataset
 
 ## Repository Structure
 
-```text
-ecommerce-analytics-pipeline/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── ingestion/
-│   └── load_to_postgres.py
-│
-├── notebooks/
-│   └── python_analytics.ipynb
-│
-├── tests/
-│   ├── test_processed_data.py
-│   ├── test_database_connection.py
-│   └── test_staging_tables.py
-│
-├── .github/
-│   └── workflows/
-│       └── data-validation.yml
-│
-├── .gitignore
-├── requirements.txt
-└── README.md
 ```
-
+├── .github
+│   └── workflows
+│       └── data-validation.yml
+├── .pytest_cache
+│   ├── v
+│   ├── .gitignore
+│   ├── CACHEDIR.TAG
+│   └── README.md
+├── .virtual_documents
+│   └── notebooks
+│       ├── Untitled.ipynb
+│       └── python_analytics.ipynb
+├── analytics
+│   ├── ecommerce_analytics_dashboard.pbix
+│   └── ecommerce_analytics_dashboard.pdf
+├── data
+│   ├── processed
+│   │   ├── .ipynb_checkpoints
+│   │   │   ├── olist_customers_cleaned_dataset-checkpoint.csv
+│   │   │   └── olist_orders_cleaned_dataset-checkpoint.csv
+│   │   ├── olist_category_translation_cleaned_dataset.csv
+│   │   ├── olist_customers_cleaned_dataset.csv
+│   │   ├── olist_geolocation_cleaned_dataset.csv
+│   │   ├── olist_order_items_cleaned_dataset.csv
+│   │   ├── olist_order_payments_cleaned_dataset.csv
+│   │   ├── olist_order_reviews_cleaned_dataset.csv
+│   │   ├── olist_orders_cleaned_dataset.csv
+│   │   ├── olist_products_cleaned_dataset.csv
+│   │   └── olist_sellers_cleaned_dataset.csv
+│   └── raw
+│       ├── .ipynb_checkpoints
+│       │   ├── olist_customers_dataset-checkpoint.csv
+│       │   ├── olist_geolocation_dataset-checkpoint.csv
+│       │   ├── olist_order_items_dataset-checkpoint.csv
+│       │   ├── olist_order_payments_dataset-checkpoint.csv
+│       │   ├── olist_order_reviews_dataset-checkpoint.csv
+│       │   ├── olist_orders_dataset-checkpoint.csv
+│       │   ├── olist_products_dataset-checkpoint.csv
+│       │   ├── olist_sellers_dataset-checkpoint.csv
+│       │   └── product_category_name_translation-checkpoint.csv
+│       ├── olist_customers_dataset.csv
+│       ├── olist_geolocation_dataset.csv
+│       ├── olist_order_items_dataset.csv
+│       ├── olist_order_payments_dataset.csv
+│       ├── olist_order_reviews_dataset.csv
+│       ├── olist_orders_dataset.csv
+│       ├── olist_products_dataset.csv
+│       ├── olist_sellers_dataset.csv
+│       └── product_category_name_translation.csv
+├── database
+│   ├── .ipynb_checkpoints
+│   │   └── db_connection-checkpoint.py
+│   └── db_connection.py
+├── images
+│   ├── 1. olist ecommerce performance.PNG
+│   ├── 2. olist customer insights.PNG
+│   ├── 3. olist products and sellers.PNG
+│   ├── 4. operations and delivery performance.PNG
+│   └── 5. technical architecture.jpg
+├── ingestion
+│   ├── clean_geolocation.py
+│   ├── extract.py
+│   ├── load_to_postgres.py
+│   └── validate.py
+├── notebooks
+│   ├── .ipynb_checkpoints
+│   │   ├── 10. Final_data_verification-checkpoint.ipynb
+│   │   ├── olist_customers_dataset_cleaning-checkpoint.ipynb
+│   │   ├── olist_geolocation_dataset_cleaning-checkpoint.ipynb
+│   │   ├── olist_order_items_dataset_cleaning-checkpoint.ipynb
+│   │   ├── olist_order_payments_dataset_cleaning-checkpoint.ipynb
+│   │   ├── olist_order_reviews_dataset_cleaning-checkpoint.ipynb
+│   │   ├── olist_orders_dataset_cleaning-checkpoint.ipynb
+│   │   ├── olist_product_translation_dataset_cleaning-checkpoint.ipynb
+│   │   ├── olist_products_dataset_cleaning-checkpoint.ipynb
+│   │   ├── olist_sellers_dataset_cleaning-checkpoint.ipynb
+│   │   └── python_analytics-checkpoint.ipynb
+│   ├── 10. Final_data_verification.ipynb
+│   ├── olist_customers_dataset_cleaning.ipynb
+│   ├── olist_geolocation_dataset_cleaning.ipynb
+│   ├── olist_order_items_dataset_cleaning.ipynb
+│   ├── olist_order_payments_dataset_cleaning.ipynb
+│   ├── olist_order_reviews_dataset_cleaning.ipynb
+│   ├── olist_orders_dataset_cleaning.ipynb
+│   ├── olist_product_translation_dataset_cleaning.ipynb
+│   ├── olist_products_dataset_cleaning.ipynb
+│   ├── olist_sellers_dataset_cleaning.ipynb
+│   └── python_analytics.ipynb
+├── tests
+│   ├── test_database_connection.py
+│   ├── test_processed_data.py
+│   └── test_staging_tables.py
+├── .gitignore
+├── readme.md
+└── requirements.txt
+```
 *The structure above highlights the main project components; additional files and folders may exist in the repository.*
 
 ---
