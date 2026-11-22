@@ -47,7 +47,7 @@ The Power BI report contains four interactive pages designed to provide differen
 
 ### 1. Executive Overview
 
-![Executive Overview](images/executive-overview.png)
+![Executive Overview](https://github.com/surajsingh241205/ecommerce-analytics-pipeline/blob/main/images/1.%20olist%20ecommerce%20performance.PNG)
 
 Key metrics:
 - Total Revenue
@@ -63,7 +63,7 @@ Visualizations:
 
 ### 2. Customer Insights
 
-![Customer Insights](images/customer-insights.png)
+![Customer Insights](https://github.com/surajsingh241205/ecommerce-analytics-pipeline/blob/main/images/2.%20olist%20customer%20insights.PNG)
 
 Key metrics:
 - Repeat Customers
@@ -77,7 +77,7 @@ Visualizations:
 
 ### 3. Products & Sellers
 
-![Products and Sellers](images/products-sellers.png)
+![Products and Sellers](https://github.com/surajsingh241205/ecommerce-analytics-pipeline/blob/main/images/3.%20olist%20products%20and%20sellers.PNG)
 
 Key metrics:
 - Total Products
@@ -94,7 +94,7 @@ Visualizations:
 
 ### 4. Operations & Delivery Performance
 
-![Operations and Delivery](images/operations-delivery.png)
+![Operations and Delivery](https://github.com/surajsingh241205/ecommerce-analytics-pipeline/blob/main/images/4.%20operations%20and%20delivery%20performance.PNG)
 
 Key metrics:
 - Delivered Orders
